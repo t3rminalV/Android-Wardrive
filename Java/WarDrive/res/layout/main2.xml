@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textGps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+  
+  <ScrollView android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent" 
+    android:layout_height="0dip"    
+    android:layout_weight="1" >
+
+      <TextView
+          android:id="@+id/textStatus"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" />
+
+  </ScrollView>
+
+  <LinearLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+      <Button
+          android:id="@+id/buttonScan"
+          android:layout_width="91dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.86"
+          android:text="Start Scan" />
+
+  </LinearLayout>
+
+</LinearLayout>

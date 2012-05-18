@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="first_preferencescreen"
+	android:title="Settings">
+
+	    
+	<EditTextPreference android:title="WiFi Refrsesh Time (seconds)"
+	    android:key="refreshtime"
+        android:summary="Defult is 5 seconds"	  
+        android:numeric="integer"
+    	android:maxLength="2"
+    	android:hint="@string/resultDefault" >
+	</EditTextPreference>
+	
+</PreferenceScreen> 
